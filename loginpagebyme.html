@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1bd8f38e2d.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-image: url(https://images.pexels.com/photos/230794/pexels-photo-230794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+            background-size: cover;
+            background-image: no-repeat;
+
+        }
+
+        .container {
+            color: white;
+            position: absolute;
+            top: 25%;
+            left: 40%;
+
+        }
+
+        .container h1 {
+            font-family: 'Heebo', sans-serif;
+            width: 50%;
+            display: inline-block;
+            font-size: 35px;
+            border-bottom: 5px solid purple;
+            margin-bottom: 15px;
+            padding: 13px 0;
+        }
+
+        .box {
+            width: 100%;
+            margin: 22px 0px;
+            border-bottom: 2px solid purple;
+        }
+
+        .box input {
+            background: none;
+            width: 75%;
+            padding: 5px 10px;
+            font-size: 20px;
+            border: none;
+            outline: none;
+            color: white;
+        }
+
+        .btn {
+            color: white;
+            cursor: pointer;
+            outline: none;
+            margin: 12px 0;
+            padding: 10px 21px;
+            border: 2px solid purple;
+            border-radius: 10px;
+            font-size: 18px;
+            background: none;
+            font-weight: bold;
+
+        }
+
+        .box i {
+            width: 25px;
+            text-align: center;
+        }
+
+        .btn:hover {
+            opacity: 0.5;
+            color: purple;
+            background: white;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>login</h1>
+        <div class="box">
+            <i class="fa-solid fa-square-envelope"></i>
+            <input type="text" name="Email" id="Email" placeholder="Enter your mail">
+
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-key"></i>
+            <input type="password" class="password" id="password" placeholder="Enter your password">
+            <button class="btn">sign in </button>
+
+
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
