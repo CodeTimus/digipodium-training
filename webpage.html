@@ -56,24 +56,62 @@
         .signup-content{
             position: absolute;
         }
-        .features-card{
-            box-shadow: 3px 3px darkgray;
-        }
+        /* .features-card{
+            box-shadow: 3px 3px rgb(250, 250, 250);
+        } */
         .features-card:hover{
-            border: 2px solid black;
-            background-color: antiquewhite;
+            border: 2px solid rgb(8, 8, 8);
+            background-color: rgba(134, 134, 133, 0.111);
         }
         .btn{
             height: 40px;
             width: 120px;
         }
+        .card{
+           
+        }
+        
         
     </style>
 </head>
 
-<body>
+<body style="background-color: rgb(176, 178, 178);">
+    <nav style="background-color: rgb(176, 178, 178);" class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a style="font-weight: bold;" class="navbar-brand" >Timus</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  list
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <header>
-        <h1 class="hero-title">Welcome to my Website</h1>
+        <h1 class="hero-title">Welcome to Timus world</h1>
         <h5 class="hero-subtitle"> Capture your moments from above with
             a mini drone, FPV or professional aerial camera</h5>
         <button class="btn btn-outline-light">Learn More</button>
@@ -82,7 +120,7 @@
     <main>
         <section>
             <div class="container mt-5 mb-5 d-flex justify-content-center">
-                <div class="card bg-dark w-75">
+                <div class="upperbox card bg-dark w-75 ">
                     <div class="row">
                         <div class="col-md-6">
                             <img class="w-100 h-100"
@@ -104,32 +142,105 @@
             </div>
         </section>
         <section class="mb-5">
-            <h1 class="text-center mb-5" style="font-weight: bolder; font-size: 75px;">Our Features</h1>
+            <h1 class="text-center mb-5" style="font-weight: bolder; font-size: 75px;">Guide Book</h1>
             <div class="contanier d-flex justify-content-center">
                 <div class="row">
                     
 
                     <div class="col-md-4">
-                        <div class="card features-card p-3 text-center">
-                            <i class="fa-3x fa-solid fa-camera-retro"></i>
+                        <div class="card features-card p-3 text-center h-100">
+                            <img src="https://cdn.dribbble.com/users/1214099/screenshots/4272366/media/636242bc382a9bee2c90910f414239a5.gif" alt="">
+                         
                             <div class="col-md-6">
                             </div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sunt quos illo beatae
-                                ipsam, consequuntur iusto rerum cum a iure.</p>
+                            <p>20.2MP full frame CMOS sensor
+                                DIGIC 5+ image processor
+                                ISO 100-25600 standard, 50-102800 expanded
+                                4.5 fps continuous shooting
+                                'Silent' shutter mode
+                                1080p30 video recording, stereo sound via external mic
+                                11 point AF system, center point cross-type and sensitive to -3 EV
+                                63 zone iFCL metering system</p>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="card features-card p-3 text-center">
-                            <i class="fa-3x fa-solid fa-camera-retro"></i>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sunt quos illo beatae
-                                ipsam, consequuntur iusto rerum cum a iure.</p>
+                        <div class="card features-card p-3 text-center h-100">
+                            <img src="https://cdn.dribbble.com/users/538090/screenshots/4757719/media/623e5e3748fb8001a39c07293bbda022.gif" alt="">
+                            
+                            <p>Low data rate in compressed RAW
+                                Dynamic range
+                                Hot swappable dual batteries
+                                6K resolution
+                                Size and weight
+                                Decent low light ability
+                                The Red Komodo is really a beast of a camera, and the data rates can get high. I ended up with about 2 TB of data for a single day’s shoot (12 hours)</p>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="card features-card p-3 text-center">
-                            <i class="fa-3x fa-solid fa-camera-retro"></i>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sunt quos illo beatae
-                                ipsam, consequuntur iusto rerum cum a iure.</p>
+                        <div class="card features-card p-3 text-center h-100">
+                            <img src="https://cdn.dribbble.com/users/47372/screenshots/1915130/media/5d51d9bf71023ab52ac41e684e2e3268.gif" alt="">
+                            
+                            <p>Modular design.
+                                Supports Canon lens system.
+                                Excellent high ISO video quality.
+                                Sharp EVF and external monitor.
+                                HD-SDI, Time Code, and Genlock output.
+                                Dual CF card slots.
+                                XLR audio input.
+                                Multi-step in-camera neutral density filter..</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <section class="mb-5">
+            <div class="contanier d-flex justify-content-center">
+                <div class="row">
+                    
+
+                    <div class="col-md-4">
+                        <div class="card features-card p-3 text-center h-100">
+                            <img src="https://cdn.dribbble.com/users/295841/screenshots/2669074/media/d2b3f3da3e6a1a4428eb7c0b4841e238.gif" alt="">
+                         
+                            <div class="col-md-6">
+                            </div>
+                            <p>20.2MP full frame CMOS sensor
+                                DIGIC 5+ image processor
+                                ISO 100-25600 standard, 50-102800 expanded
+                                4.5 fps continuous shooting
+                                'Silent' shutter mode
+                                1080p30 video recording, stereo sound via external mic
+                                11 point AF system, center point cross-type and sensitive to -3 EV
+                                63 zone iFCL metering system</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card features-card p-3 text-center h-100">
+                            <img src="https://cdn.dribbble.com/users/1804589/screenshots/4507698/media/c3bc115bccfe56b40f80949e253e8dfc.gif" alt="">
+                            
+                            <p>Low data rate in compressed RAW
+                                Dynamic range
+                                Hot swappable dual batteries
+                                6K resolution
+                                Size and weight
+                                Decent low light ability
+                                The Red Komodo is really a beast of a camera, and the data rates can get high. I ended up with about 2 TB of data for a single day’s shoot (12 hours)</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card features-card p-3 text-center h-100">
+                            <img src="https://cdn.dribbble.com/users/1214099/screenshots/4268905/media/7f0cc51c1d4bc7772c1ab306bb779566.gif" alt="">
+                            
+                            <p>Modular design.
+                                Supports Canon lens system.
+                                Excellent high ISO video quality.
+                                Sharp EVF and external monitor.
+                                HD-SDI, Time Code, and Genlock output.
+                                Dual CF card slots.
+                                XLR audio input.
+                                Multi-step in-camera neutral density filter..</p>
                         </div>
                     </div>
 
@@ -138,7 +249,7 @@
             </div>
         </section>
         <!-- Signup -->
-        <h1 class="text-center mb-5" style="font-weight: bolder; font-size: 55px;color:rgb(52, 51, 51);">Want To Learn More !</h1>
+        <h1 class="text-center mb-5" style="font-weight: bolder; font-size: 55px;color:rgb(52, 51, 51);">Want To Learn more !</h1>
         <div class="container  vid d-flex justify-content-center align-items-center mb-5">
             <div class="signup-content "style="z-index: 2">
                 <h3>Sign up for 30% discount</h3>
@@ -168,7 +279,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
-        VanillaTilt.init(document.querySelectorAll ('.card',{
+        VanillaTilt.init(document.querySelectorAll ('.upperbox' ,{
             max:20,
             speed:100,
             glare: true,
